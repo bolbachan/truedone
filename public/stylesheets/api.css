@@ -1,0 +1,463 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+caption, th {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #E4E4E4;
+	font: 12px/18px Tahoma,Arial,Verdana,sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	margin: 0 0 18px
+}
+
+img {
+	border: none;
+}
+
+input {
+	vertical-align: middle;
+}
+
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+}
+
+#header .logo {
+    background: url("/../images/logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 29px;
+    left: 54px;
+    position: relative;
+    text-decoration: none;
+    top: 7px;
+    width: 110px;
+}
+
+#header .slogan {
+  color: #FFFFFF;
+  display: block;
+  font-size: 12px;
+  left: 54px;
+  margin-left: 55px;
+  margin-top: 4px;
+}
+
+#header #userBlock {
+  background: none repeat scroll 0 0 #121212;
+  display: block;
+  height: 28px;
+  padding-right: 23px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+#header #userBlock li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#header #userBlock li a {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+/* Middle
+
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 0 45px 130px;
+	color: #161616;
+}
+
+#content .title {
+
+  color: #0096FF;
+  display: block;
+  font-size: 24px;
+  height: 37px;
+  line-height: 37px;
+  margin: 20px 0 10px;
+  padding-left: 15px;
+  width: 635px;
+
+
+    background: -moz-linear-gradient(left , #FFFFFF, #E7E7E7);
+    background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#E7E7E7));
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr=#FFFFFF,endColorstr=#E7E7E7,GradientType=1); zoom: 1;
+    background: linear-gradient(left,#FFFFFF,#E7E7E7);
+
+    background-clip: border-box; -moz-background-clip: border; -webkit-background-clip: border-box;
+    background-origin: border-box; -moz-background-origin: border; -webkit-background-origin: border-box;
+
+    background:linear-gradient(left,#FFFFFF,#E7E7E7);
+
+}
+@media not screen and (1) { /** Fuck Opera **/
+	#content .title {
+	background-image: url("/../images/sprite.png");
+	background-position: -365px 0;
+	}
+}
+
+img.inFirstPage {
+	display: block;
+	margin: 0 auto;
+}
+
+.formBox {
+  margin: 40px auto 10px;
+}
+
+.formBox .top{
+	background-image: url("../images/sprite.png");
+	background-position: 0 -412px;
+	height: 5px;
+	width: 938px;
+}
+
+.formBox .bottom{
+	background-image: url("../images/sprite.png");
+	background-position: 0 -417px;
+	height: 5px;
+	width: 938px;
+}
+
+.formBox .center {
+  background-color: #FBFBFB;
+  text-align: center;
+  width: 938px;
+}
+
+.formBox h1 {
+  color: #010101;
+  display: inline-block;
+  font-size: 36px;
+  margin-top: 26px;
+}
+
+.formBox label {
+  color: #000000;
+  font-size: 24px;
+  line-height: 40px;
+  display: block;
+}
+
+.formBox .errorMessage, .formBox .errorSummary li {
+    color: #000000;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 0;
+    overflow: auto;
+}
+
+.formBox input[type="text"], .formBox input[type="password"] {
+  background-color: #FFFFFF;
+  border: 1px solid #B5B5B5;
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  font-size: 25px;
+  height: 44px;
+  margin: 35px auto 18px;
+  padding: 0 10px;
+  width: 395px;
+}
+
+label[for="agreement"], label[for="saveMe"] {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 19px;
+  margin-left: 7px;
+  position: relative;
+  top: 1px;
+}
+
+.errorSummary p {
+    display: none;
+}
+
+.smallLink {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+/* Buttons
+-----------------------------------------------------------------------------*/
+
+.button {
+    background-image: url("../images/sprite.png");
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.button span {
+    background-image: url("../images/sprite.png");
+    display: inline-block;
+}
+
+.formBox .button {
+    background-position: 0 -35px;
+    padding: 0 0 0 30px;
+}
+
+.formBox .button span {
+    background-position: 100% -35px;
+    color: #000000;
+    font-size: 24px;
+    line-height: 61px;
+    padding-left: 1px;
+    padding-right: 30px;
+}
+
+.formBox .button:active {
+     background-position: 0 -158px!important;
+}
+
+ .formBox .button:active span {
+    background-position: 100% -158px!important;;
+ }
+
+.formBox .button:hover {
+     background-position: 0 -95px;
+}
+
+ .formBox .button:hover span {
+    background-position: 100% -95px;
+ }
+
+ ul#tabs  .button {
+    background-position: 0 -423px;
+    padding: 0 0 0 30px;
+}
+
+ul#tabs .button span {
+  background-position: 100% -423px;
+  color: #FEFEFE;
+  font-size: 18px;
+  line-height: 52px;
+  padding-left: 1px;
+  padding-right: 30px;
+}
+
+ ul#tabs  .button.current {
+    background-position: 0 -476px;
+}
+
+ul#tabs  .button.current span {
+    background-position: 100% -476px;
+    color: #323232;
+}
+
+
+ /* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+  background: url("../images/footer_bg.png") repeat scroll 0 0 transparent;
+  height: 95px;
+  margin: -95px auto 0;
+  width: 1024px;
+  position: relative;
+}
+
+.mailTo {}
+
+#footer ul {
+  display: block;
+  float: left;
+  margin: 9px 110px 0 45px;
+}
+
+#footer ul li{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+#footer ul li a{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+/* Window
+-----------------------------------------------------------------------------*/
+
+
+.window .button {
+     background-position: 0 -220px;
+     padding: 0 0 0 23px;
+ }
+
+.window .button span {
+  background-position: 100% -220px;
+  color: #000000;
+  font-size: 12px;
+  height: 29px;
+  padding-left: 1px;
+  padding-right: 23px;
+  padding-top: 7px;
+}
+
+
+.window .button:active {
+     background-position: 0 -297px!important;
+}
+
+ .window .button:active span {
+    background-position: 100% -297px!important;;
+ }
+
+.window .button:hover {
+     background-position: 0 -258px;
+}
+
+ .window .button:hover span {
+    background-position: 100% -258px;
+ }
+
+.window {
+    height: auto;
+    left: -140px;
+    margin-left: 50%;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 102px;
+    width: 280px;
+    z-index: 1000;
+}
+
+#overlay {
+    background-color: #FFFFFF;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+ .window .top {
+    width: 280px;
+	height: 44px;
+    background-image: url("../images/sprite.png");
+    background-position: 0 -354px;
+ }
+
+.window .center {
+  background-image: url("../images/win_c.png");
+  height: auto;
+  padding: 0 17px;
+  width: 246px;
+}
+
+ .window .bottom {
+    width: 280px;
+	height: 15px;
+    background-image: url("../images/sprite.png");
+	background-position: 0 -397px;
+
+ }
+
+.window .top span {
+  color: white;
+  display: block;
+  font-size: 18px;
+  overflow: hidden;
+  padding: 8px 0 0 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.window .top a {
+  background-image: url("../images/sprite.png");
+  background-position: 0 -338px;
+  display: block;
+  height: 16px;
+  position: absolute;
+  right: 7px;
+  top: 9px;
+  width: 16px;
+}
+
+.window input[type="text"], .window input[type="password"]  {
+  background-position: 0 -220px;
+  height: 23px;
+  margin: 8px 0;
+  padding: 0 0 0 23px;
+  width: 223px;
+}
+
+.buttonBlock {
+  text-align: center;
+}
+
+.template {
+	display: none;
+}

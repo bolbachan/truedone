@@ -1,0 +1,40 @@
+<div class='filter'>
+  <div class='top'></div>
+  <div class='center'>
+    <span  class='data'>Дата</span>
+    <input type="hidden" name='doctype'>
+    <span>Документ</span>
+
+    <div  data-bind='visible: selectDoctype' class='comboBox'>
+      <ul data-bind='foreach: doctypes'>
+        <li data-bind="text: chosen,
+                        css: { selected: chosen },
+                        click: $root.setDoctype"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class='journalControls'>
+  <div class='control'><div class='new'><a href="#" ></a></div></div>
+  <div class='control'><div class='update'><a href="#"></a></div></div>
+  <div class='control'><div class='money'><a href="#"></a></div></div>
+</div>
+
+<div id="grid"></div>
+
+
+<script id="rowTemplate" type="text/x-kendo-tmpl">
+  <tr>
+    <td class='first'>
+      <div class='docActions'>
+				<span class='remove'>
+					<span></span>
+				</span>
+				<span class='edit'>
+				<span></span>
+			</span>
+      </div>
+      <span class='data'>${ data }</span></td><td>${ name }</td><td>${ num }</td><td>${ contractor }</td><td>${ sum }</td><td>${ responsible }</td>
+  </tr>
+</script>

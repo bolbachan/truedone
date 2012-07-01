@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Truedone</title>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/javascripts/external/jquery.json-2.3.min.js"></script>
+  <script type="text/javascript" src="/javascripts/external/kendo.all.min.js"></script>
+  <script type="text/javascript" src="http://cloud.github.com/downloads/SteveSanderson/knockout/knockout-2.1.0.js"></script>
+  <script type="text/javascript" src="/javascripts/viewModel/grid.js"></script>
+  <script type="text/javascript" src="/javascripts/application.js"></script>
+  <script type="text/javascript" src="/javascripts/model/journal.js"></script>
+
+  <link rel="stylesheet" href="/stylesheets/api.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/stylesheets/journal.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/stylesheets/kendo.metro.min.css" type="text/css" media="screen, projection" />
+  <%= csrf_meta_tags %>
+
+
+  </head>
+
+  <body>
+
+  <div id="wrapper">
+    <div id="header">
+      <ul id="userBlock">
+        <li><a href="#" data-block="profile" class="active">Профиль</a></li>
+        <li><a href="#" data-block="feedback" class="active">Обратная связь</a></li>
+        <li><a href="#" data-block="logout" class="active">Выход</a></li>
+      </ul>
+      <ul id="tabs">
+        <li><a id="reports" class="button"  href="#"><span>Отчеты</span></a></li>
+        <li><a id="catalog" class="button"  href="#"><span>Справочники</span></a></li>
+        <li><a id="taxes" class="button"   href="#"><span>Налоги</span></a></li>
+        <li><a id="journal"  class="button current"  href="#"><span>Журнал</span></a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="top"></div>
+
+    <div class="content">
+
+
+      <%= yield %>
+
+
+    </div>
+
+    <div class="bottom"></div>
+
+  </div><!-- #wrapper -->
+
+  <div id='footer'>
+    <ul>
+      <li> © 2011 Putevoy.by </li>
+      <li>email: <span class='mailTo'>info@putevoy.by</span></li>
+      <li>Телефон: 8-800-555-33-14</li>
+    </ul>
+    <ul>
+      <li><a href='#'>Разделы</a></li>
+      <li><a href='#'>Помощь</a></li>
+      <li><a href='#'>Регистрация</a></li>
+    </ul>
+  </div><!-- #footer -->
+
+
+  <div id="overlay" style="display: none;">&nbsp;</div>
+
+  </body>
+  </html>
+

@@ -1,0 +1,573 @@
+ul#tabs {
+  height: 50px;
+  margin: 44px auto 0;
+  width: 938px;
+}
+
+ul#tabs li {
+  float: right;
+}
+
+#wrapper .top{  
+	background-image: url("../images/sprite.png");
+	background-position: 0 -412px;
+	height: 5px;
+	width: 938px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#wrapper .bottom{  
+	background-image: url("../images/sprite.png");
+	background-position: 0 -417px;
+	height: 5px;
+	width: 938px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#wrapper .content {
+    background-color: #FBFBFB;
+    margin: 0 auto;
+    min-height: 300px;
+    padding-bottom: 130px;
+    padding-top: 19px;
+    position: relative;
+    text-align: center;
+    width: 938px;
+}
+
+#wrapper .filter span {
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+#doc_type-list{
+	width: 224px !important;
+	background-color: transparent !important;
+	overflow: hidden;
+	border: 0px none;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+#wrapper #dropDownList .top {
+  background-image: url("../images/sprite.png");
+  background-position: -218px -666px;
+  height: 26px;
+  margin: 0;
+  position: relative;
+  width: 224px;
+}
+
+#wrapper #dropDownList ul {
+  background-image: url("../images/combobox_c.png");
+  background-position: -3px 0;
+  position: relative;
+  width: 224px;
+}
+
+#wrapper #dropDownList .bottom {
+  background-image: url("../images/sprite.png");
+  background-position: -218px -697px;
+  height: 26px;
+  margin: 0;
+  position: relative;
+  width: 224px;
+}
+
+.selectDoc .top {
+  background-image: url("../images/sprite.png");
+  background-position: -473px -667px;
+  height: 26px;
+  margin: 0;
+  position: relative;
+  width: 295px;
+}
+
+.selectDoc .center {
+  background-image: url("../images/select_doc_c.png");
+    padding: 10px 0 5px;
+	position: relative;
+  width: 292px;
+}
+
+.selectDoc .bottom {
+  background-image: url("../images/sprite.png");
+  background-position: -473px -702px;
+  height: 26px;
+  margin: 0;
+  position: relative;
+  width: 292px;
+}
+
+#wrapper .filter .activeLink {
+	float: left;
+	margin-left: 47px;
+	border-bottom: 1px dashed;
+	cursor: pointer;
+
+}
+#wrapper .filter .top{
+	background-image: url("../images/sprite.png");
+	background-position: 0 -595px;
+	height: 5px;
+	width: 884px;
+	position: relative;
+}
+
+#wrapper .filter .centerBg {
+  background-color: #121212;
+  height: 30px;
+  line-height: 19px;
+  margin: 0 auto;
+  padding-top: 6px;
+  text-align: left;
+  width: 884px;
+}
+
+.journalControls {
+  height: 198px;
+  position: absolute;
+  right: -54px;
+  width: 54px;
+}
+
+.journalControls .control {
+  background-image: url("../images/sprite.png");
+  background-position: -932px -542px;
+  height: 66px;
+  width: 54px;
+}
+
+.journalControls .control div {
+  background-image: url("../images/sprite.png");
+  background-position: -193px -516px;
+  height: 66px;
+  width: 37px;
+}
+
+.journalControls .control div a{
+  display: block;
+  background-image: url("../images/sprite.png");
+  height: 66px;
+  width: 37px;
+
+}
+
+.journalControls .control div.new a{
+  background-position: -362px -515px;
+}
+
+.journalControls .control div.update a{
+  background-position: -313px -515px;
+}
+
+.journalControls .control div.money a{
+  background-position: -400px -515px;
+}
+
+.journalControls .control div:hover {
+  background-position: -151px -516px;
+}
+
+.journalControls .control span{}
+
+
+.k-grouping-header {
+	display: none !important;
+}
+
+.k-grid-header {
+	padding-right: 0px !important;
+}
+
+.k-grid-header th{
+    height: 45px;
+}
+
+#grid .data {
+  display: block;
+  line-height: 46px;
+  margin-left: 34px;
+  margin-top: -23px;
+  position: absolute;
+}
+
+#grid tr:nth-child(2n+1){
+   background-color: #FBFBFB;
+}
+
+#grid tr:nth-child(2n){
+   background-color: #f8f8f8;
+}
+
+#grid tr:hover, #grid tr:hover .first{
+   background-color: #f9f9f9;
+}
+
+
+
+#grid table{
+	width: 884px;
+	margin: 0 auto;
+	border-left: 1px solid #121212;
+	border-right: 1px solid #121212;
+   color: #343333;
+   font-size: 14px;
+}
+
+#grid table tr{
+	border-left: 1px solid #121212;
+	border-right: 1px solid #121212;
+}
+
+#grid table th {
+  background-color: #E5E5E5;
+  color: #343333;
+  font-size: 14px;
+  padding: 0 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#grid table th.selected {
+    background-color: #F8F8F8;
+}
+
+#grid .k-grid-content table {
+	border-bottom: 1px solid #121212;
+}
+
+#grid .k-link {
+	text-decoration: none;
+	 color: #343333;
+}
+
+#grid table th1{}
+#grid table th2{}
+#grid table th3{}
+#grid table th4{}
+#grid table th5{}
+#grid table th6{}
+
+ #grid table td{
+	border-top: 1px solid #EFEEEE;
+	border-bottom: 1px solid #EFEEEE;
+    height: 47px;
+}
+
+#grid table tr:last-child td {
+	border-bottom: 0px;
+}
+
+#grid tr .first {
+  text-align: center;
+}
+
+#grid tr:hover .first {
+  height: 46px;
+  left: 0;
+  margin-top: -1px;
+  position: absolute;
+  width: 185px;
+  display: inline-block;
+
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+    #grid tr:first-child:hover .first {
+        margin-top: 0px;
+    }
+    #grid tr:hover .first {
+        height: 47px;
+    }
+}
+
+#grid tr:hover .data {
+  margin-left: 62px;
+  margin-top: 0;
+}
+ 
+ #grid tr:hover .docActions {
+  display: block;
+ }
+ 
+
+ 
+#grid .docActions {
+  background-image: url("../images/sprite.png");
+  background-position: -78px -539px;
+  float: left;
+  height: 47px;
+  left: -21px;
+  position: absolute;
+  width: 22px;
+  display: none;
+}
+
+#grid .docActions span {
+  background-image: url("../images/sprite.png");
+  background-position: -36px -529px;
+  cursor: pointer;
+  height: 37px;
+  left: 12px;
+  position: absolute;
+  top: 3px;
+  width: 29px;
+}
+ 
+#grid .docActions span span {
+  background-position: -243px -535px;
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 27px;
+}
+ 
+ #grid .docActions span span:hover {
+  background-position: -243px -535px;
+}
+
+#grid .docActions span:hover {
+  background-position: -4px -529px;
+}
+
+#grid .docActions .edit{
+  left: 47px;
+ }
+ 
+#grid .docActions .edit span{
+  background-position: -276px -535px;
+ }
+ 
+ #grid .docActions .edit:hover span{
+  background-position: -276px -535px;
+}
+
+ #grid .k-pager-wrap, #grid .k-grid-header,  #grid {
+	background-color: #FBFBFB  !important;
+ }
+
+#grid .k-arrow-down {
+  background-image: url("../images/sprite.png");
+  background-position: -703px -554px;
+  display: inline-block;
+  height: 7px;
+  width: 21px;
+}
+
+#grid .k-arrow-up {
+  background-position: -720px -554px;
+  display: inline-block;
+  height: 7px;
+  width: 21px;
+}
+
+#doctypesBox {
+    left: 300px;
+    position: absolute;
+    top: 30px;
+    z-index: 100;
+}
+
+#doctypesBox li {
+  color: #171717;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  height: 20px;
+  margin-left: 15px;
+  padding-left: 30px;
+  width: 163px;
+}
+
+#doctypesBox li:hover {
+	background-color: #F3F3F3;
+}
+
+#doctypesBox li div {
+	background-image: url("../images/chosen.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height: 20px;
+	left: 21px;
+	margin-top: -19px;
+	position: absolute;
+	width: 13px;
+}
+
+.selectDoc {
+  position: absolute;
+  width: 295px;
+  z-index: 110;
+
+}
+
+.selectDoc li {
+  height: 20px;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.selectDoc li .button {
+  padding: 0 0 0 7px;
+  height: 25px;
+}
+
+.selectDoc li:hover .button {
+  background-position: -507px -611px;
+}
+
+.selectDoc li .button span {
+  color: #121212;
+  font-size: 14px;
+  height: 25px;
+  line-height: 22px;
+  padding-right: 10px;
+}
+
+.selectDoc li:hover .button span {
+  background-position: 100% -611px;
+}
+
+.selectDoc .close {
+  background-image: url("../images/sprite.png");
+  background-position: -746px -545px;
+  background-repeat: no-repeat;
+  height: 25px;
+  position: absolute;
+  right: 22px;
+  top: 16px;
+  width: 25px;
+  z-index: 112;
+}
+
+#wrapper #selectedDoctypes {
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 380px;
+}
+
+.gradientBox {
+	overflow: hidden;
+	position: relative;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+#doctypesBox .gradientBox {
+	height: 20px;
+	position: absolute;
+	width: 379px;
+}
+
+.gradientBox .gradient{
+	height: 15px;
+	position: absolute;
+	right: 0;
+	top: 1px;
+	width: 10px;
+	z-index: 1;
+}
+
+#dropDownList {
+	margin-top: 23px;
+}
+
+
+.k-grid-pager{
+    display: none;
+}
+
+#pager {
+    color: #121212;
+    font-size: 12px;
+    height: 23px;
+    line-height: 23px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+}
+
+#pager .pager {
+    display: inline-block;
+    height: 23px;
+    line-height: 23px;
+
+}
+
+#wrapper #pager .limit {
+    border-bottom: 1px solid;
+    color: #121212;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 18px;
+    margin: 0 5px;
+}
+
+#wrapper #pager .toLeft {
+    background-image: url("../images/sprite.png");
+    background-position: -815px -548px;
+    display: inline-block;
+    height: 23px;
+    position: relative;
+    top: 8px;
+    width: 24px;
+    cursor: pointer;
+    margin: 0;
+}
+
+#wrapper #pager .toRight{
+    background-image: url("../images/sprite.png");
+    background-position: -840px -548px;
+    display: inline-block;
+    height: 23px;
+    width: 24px;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+    margin: 0;
+}
+
+#pager .pageItemBox {
+    display: inline-block;
+    height: 23px;
+    margin: 0 -3px;
+}
+
+#pager .pageItemBox li {
+    background-image: url("../images/sprite.png");
+    background-position: -866px -548px;
+    cursor: pointer;
+    display: inline-block;
+    height: 23px;
+    text-align: center;
+    width: 24px;
+}
+
+#pager .pageItemBox li.selected{
+    background-image: url("../images/sprite.png");
+    background-position: -892px -548px;
+    display: inline-block;
+    height: 23px;
+    width: 24px;
+}
+
+.empty {
+    display: block;
+    font-size: 15px;
+    margin: 100px 0;
+}
+
+#wrapper #selectedDate {
+    margin: 0;
+}
+
+
