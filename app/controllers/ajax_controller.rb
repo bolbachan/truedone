@@ -1,13 +1,12 @@
-
 class AjaxController < ApplicationController
-  def project
-
-  end
-
   def test
-    data = { :runs => 5, :metrics => 2}
+
+    user = User.where(:name => "Igor")
+
+
+
 
     response.headers['Content-type'] = "text/plain; charset=utf-8"
-    render :text => data.to_json
+    render :text => user.to_json
   end
 end

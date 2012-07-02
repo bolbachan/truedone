@@ -1,6 +1,7 @@
 Truedone::Application.routes.draw do
   get "ajax/project"
   get "ajax/test"
+  root :to => 'index#welcome'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
